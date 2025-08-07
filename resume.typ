@@ -61,7 +61,7 @@
 #resume_heading("Projects")
 #project_item(
   name: "Superscalar Out-of-Order RISC-V CPU",
-  skills: "SystemVerilog, Verdi, VCS",
+  skills: "pratyaygopal.github.io/docs/ooo.pdf",
   [Created a speculative out-of-order RISC-V CPU with an ERR architecture, implementing the RV32IM spec.],
   [Supports upto 2 instruction commits per cycle, multiple integer execution units, parametric multiplier/div, etc.],
   [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz]
@@ -78,7 +78,7 @@
 
 #project_item(
   name: "Breadboard Synth",
-  skills: "Falstad, Arduino, Oscilloscopes",
+  skills: "pratyaygopal.github.io/docs/synth.pdf",
   [Designed and Implemented 4 modules for a fully modular music synthesizer for the ECE198 Honors lab.],
   [Used Falstad for design and worked with electrical workbench tools for testing.]
 )
@@ -98,7 +98,7 @@
 )
 #skill_item(
   category: "Tools",
-  skills: "Git, KICAD, ORCAD, PADS, Intel Quartus, Xilinx Vivado, VS Code, Verdi, VCS, Verilator, Linux"
+  skills: "Git, Intel Quartus, Xilinx Vivado, VS Code, Verdi, VCS, Verilator, Linux"
 )
 #skill_item(
   category: "Protocols",
@@ -106,5 +106,5 @@
 )
 #skill_item(
   category: "Lab Tools",
-  skills: "AXI-4, AXI Stream, SPI, TCP, UDP, UART, I2C"
+  skills: "Falstad, Arduino, Oscilloscopes, Raspberry Pi, KICAD, ORCAD, PADS"
 )
