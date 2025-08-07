@@ -34,7 +34,7 @@
 )
 
 #exp_item(
-  role: "Officer, ACM SIGARCH@UIUC",
+  role: "President, ACM SIGARCH@UIUC",
   date: "Aug 2024 - Present",
   [Officer and Workshop Lead for UIUC’s premier computer architecture student organization.],
   [Designing workshops to introduce students to RTL design and simulation, computer architecture and ISAs.],
