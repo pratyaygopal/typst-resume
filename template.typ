@@ -42,7 +42,7 @@
 }
 
 #let resume_heading(txt) = {
-  show heading: set text(size: 0.92em, weight: "regular")
+  show heading: set text(size: 0.9em, weight: "regular")
 
   block[
     = #smallcaps(txt)
@@ -50,6 +50,16 @@
     #line(length: 100%, stroke: 1pt + black)
   ]
 }
+
+#let coursework_item(
+  category: "Coursework",
+  courses: "Balling, Yoga, FPGA",
+) = {
+  set block(above: 0.7em)
+  set text(size: 1em)
+  pad(left: 2em, block[*#category* #courses])
+}
+
 
 #let edu_item(
   name: "University Of Illinois Urbana Champaign", 
@@ -72,30 +82,6 @@
 }
 
 #let exp_item(
-  name: "Sample Workplace",
-  role: "Worker",
-  date: "June 1837 - May 1845",
-  location: "Foo, BA",
-  ..points
-) = {
-    set block(above: 0.7em, below: 1em)
-    pad(left: 1em, right: 0.5em, box[
-      #grid(
-        columns: (3fr, 1fr),
-        align(left)[
-          *#role* \
-          _#name _
-        ],
-        align(right)[
-          #date \
-          _#location _
-        ]
-      )
-      #list(..points)
-    ])
-}
-
-#let exp_item_small(
   role: "Worker",
   date: "June 1837 - May 1845",
   ..points
@@ -118,12 +104,11 @@
 #let project_item(
   name: "Example Project",
   skills: "Programming Language 1, Database3",
-  date: "May 1234 - June 4321",
   ..points
 ) = {
-  set block(above: 0.7em, below: 1em)
+  set block(above: 0.7em, below: 0.7em)
   pad(left: 1em, right: 0.5em, box[
-    *#name* | _#skills _ #h(1fr) #date
+    *#name* | _#link("https://" + skills)[#skills] _ #h(1fr) 
     #list(..points)
   ])
 }
@@ -135,4 +120,32 @@
   set block(above: 0.7em)
   set text(size: 0.91em)
   pad(left: 1em, right: 0.5em, block[*#category*: #skills])
+}
+
+
+
+//////////////////// Archived items ////////////////////
+
+#let exp_item_location(
+  name: "Sample Workplace",
+  role: "Worker",
+  date: "June 1837 - May 1845",
+  location: "Foo, BA",
+  ..points
+) = {
+    set block(above: 0.7em, below: 0.7em)
+    pad(left: 1em, right: 0.5em, box[
+      #grid(
+        columns: (3fr, 1fr),
+        align(left)[
+          *#role* \
+          _#name _
+        ],
+        align(right)[
+          #date \
+          _#location _
+        ]
+      )
+      #list(..points)
+    ])
 }
