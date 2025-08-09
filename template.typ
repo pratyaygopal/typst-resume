@@ -24,7 +24,7 @@
 
 #let header(
   name: "Pratyay Rudravaram",
-  phone: "+1 9452680041",
+  website: "+1 9452680041",
   email: "pratyay2@illinois.edu",
   linkedin: "linkedin.com/in/pratyaygopal",
   site: "github.com/pratyaygopal",
@@ -32,7 +32,7 @@
   align(left,
     block[
       #name_header(name) \
-      #phone |
+      #link("https://" + website)[#website] |
       #link("mailto:" + email)[#email] |
       #link("https://" + linkedin)[#linkedin] |
       #link("https://" + site)[#site] |

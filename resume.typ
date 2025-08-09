@@ -4,7 +4,7 @@
 
 #header(
   name: "Pratyay Rudravaram",
-  phone: "+1 9452680041",
+  website: "pratyay.org",
   email: "pratyay2@illinois.edu",
   linkedin: "linkedin.com/in/pratyaygopal",
   site: "github.com/pratyaygopal",
@@ -26,6 +26,15 @@
 #resume_heading[Experience]
 
 #exp_item(
+  role: "RTL Verification Intern, Deepgrid Semi",
+  date: "June 2025 - July 2025",
+  [Developed a testing strategy to verify 5 modules of an open-source hardware accelerator using executed SystemVerilog UVM-esqe testbenches while ensuring 100\% functional correctness and simulation coverage],
+  [Implemented 4 self-checking testbenches with scoreboard mechanisms and functional coverage models.],
+  [Integrated Vivado-based synthesis and implementation flow to validate FPGA compatibility and performance.],
+  [Collaborated on the testing of a RISC-V based image detection system targeting the Arty A7 FPGA platform.]
+)
+
+#exp_item(
   role: "Undergraduate Teaching Assistant, ECE385(FPGA)",
   date: "Jan 2025 -- Present",
   [Hosted office hours for course’s FPGA projects including VGA text controller and RISC processor.],
@@ -42,15 +51,6 @@
 )
 
 #exp_item(
-  role: "RTL Verification Intern, Deepgrid Semi",
-  date: "June 2025 - July 2025",
-  [Developed a testing strategy to verify 5 modules of an open-source hardware accelerator using executed SystemVerilog UVM-esqe testbenches while ensuring 100\% functional correctness and simulation coverage],
-  [Implemented 4 self-checking testbenches with scoreboard mechanisms and functional coverage models.],
-  [Integrated Vivado-based synthesis and implementation flow to validate FPGA compatibility and performance.],
-  [Collaborated on the testing of a RISC-V based image detection system targeting the Arty A7 FPGA platform.]
-)
-
-#exp_item(
   role: "PCB Design Intern, Apollo Computing Laboratories",
   date: "June 2024 - Aug 2024",
   [Developed a 2-layer 8-channel power delivery board to enable high availability data-center applications.],  
@@ -61,7 +61,7 @@
 #resume_heading("Projects")
 #project_item(
   name: "Superscalar Out-of-Order RISC-V CPU",
-  skills: "pratyaygopal.github.io/docs/ooo.pdf",
+  skills: "pratyay.org/docs/ooo.pdf",
   [Created a speculative out-of-order RISC-V CPU with an ERR architecture, implementing the RV32IM spec.],
   [Supports upto 2 instruction commits per cycle, multiple integer execution units, parametric multiplier/div, etc.],
   [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz]
@@ -69,7 +69,7 @@
 
 #project_item(
   name: "FPGA-Based Video Game – Spartan-7 Board",
-  skills: "pratyaygopal.github.io/docs/fnaf.pdf",
+  skills: "pratyay.org/docs/fnaf.pdf",
   [Developed a modified port of Five Nights at Freddy’s on a Spartan-7 FPGA, achieving real-time gameplay.],
   [Implemented and integrated an SPI-based keyboard interface supporting up to six simultaneous key presses.],
   [Designed game logic, randomized seed selection and optimized scalable graphics within 270 KiloBytes of RAM.],
@@ -77,8 +77,8 @@
 )
 
 #project_item(
-  name: "Breadboard Synth",
-  skills: "pratyaygopal.github.io/docs/synth.pdf",
+  name: "Music synthesizer",
+  skills: "pratyay.org/docs/synth.pdf",
   [Designed and Implemented 4 modules for a fully modular music synthesizer for the ECE198 Honors lab.],
   [Used Falstad for design and worked with electrical workbench tools for testing.]
 )
