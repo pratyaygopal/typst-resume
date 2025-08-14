@@ -30,8 +30,7 @@
   date: "June 2025 - July 2025",
   [Developed a testing strategy to verify 5 modules of an open-source hardware accelerator using executed SystemVerilog UVM-esqe testbenches while ensuring 100\% functional correctness and simulation coverage],
   [Implemented 4 self-checking testbenches with scoreboard mechanisms and functional coverage models.],
-  [Integrated Vivado-based synthesis and implementation flow to validate FPGA compatibility and performance.],
-  [Collaborated on the testing of a RISC-V based image detection system targeting the Arty A7 FPGA platform.]
+  [Integrated Vivado-based synthesis and implementation flow to validate FPGA compliance and performance.]
 )
 
 #exp_item(
@@ -64,7 +63,8 @@
   skills: "pratyay.org/docs/ooo.pdf",
   [Created a speculative out-of-order RISC-V CPU with an ERR architecture, implementing the RV32IM spec.],
   [Supports upto 2 instruction commits per cycle, multiple integer execution units, parametric multiplier/div, etc.],
-  [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz]
+  [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz],
+  [Achieved exeptional IPC \~0.67 on varous assembly benchmarks like coremark, aes-sha hashing and mergesort]
 )
 
 #project_item(
@@ -94,7 +94,7 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "SystemVerilog, Verilog, Bash, C, C++, VHDL, Python, Java"
+  skills: "SystemVerilog, Verilog, Bash, Assembly, C, C++, VHDL, Python, Java"
 )
 #skill_item(
   category: "Tools",
