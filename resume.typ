@@ -34,7 +34,23 @@
 )
 
 #exp_item(
-  role: "Undergraduate Teaching Assistant, ECE385(FPGA)",
+  role: "PCB Design Intern, Apollo Computing Laboratories",
+  date: "June 2024 - Aug 2024",
+  [Developed a 2-layer 8-channel power delivery board to enable high availability data-center applications.],  
+  [Designed and implemented hardware to control power supply to a  server, ensuring precise control.],
+  [Documented design process, BOMs, and test procedures for future manufacturing and certification.]
+)
+
+
+#exp_item(
+  role: "Computer Architecture [ECE411] Course Assistant",
+  date: "Aug 2025 -- Present",
+  [Hosted office hours for class projects like the pipelined processor and multicycle set associative cache.],
+  [Clarified doubts during office hours, conducted exam review sessions and proctored exams for 150+ students.]
+)
+
+#exp_item(
+  role: "Digital Systems FPGA [ECE385] Course Assistant",
   date: "Jan 2025 -- Present",
   [Hosted office hours for course’s FPGA projects including VGA text controller and RISC processor.],
   [Moderated the 1000+ members class discord server and clarified student questions on SV and FPGA testing.],
@@ -45,17 +61,9 @@
   role: "President, ACM SIGARCH@UIUC",
   date: "Aug 2024 - Present",
   [Officer and Workshop Lead for UIUC’s premier computer architecture student organization.],
-  [Designing workshops to introduce students to RTL design and simulation, computer architecture and ISAs.],
-  [Organized meetings to discuss papers on topics like branch prediction, and cache coherence.]
+  [Designing workshops to introduce students to RTL design and simulation, computer architecture and ISAs.]
 )
 
-#exp_item(
-  role: "PCB Design Intern, Apollo Computing Laboratories",
-  date: "June 2024 - Aug 2024",
-  [Developed a 2-layer 8-channel power delivery board to enable high availability data-center applications.],  
-  [Designed and implemented hardware to control power supply to a  server, ensuring precise control.],
-  [Documented design process, BOMs, and test procedures for future manufacturing and certification.]
-)
 
 #resume_heading("Projects")
 #project_item(
@@ -63,8 +71,7 @@
   skills: "pratyay.org/docs/ooo.pdf",
   [Created a speculative out-of-order RISC-V CPU with an ERR architecture, implementing the RV32IM spec.],
   [Supports upto 2 instruction commits per cycle, multiple integer execution units, parametric multiplier/div, etc.],
-  [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz],
-  [Achieved exeptional IPC \~0.67 on varous assembly benchmarks like coremark, aes-sha hashing and mergesort]
+  [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz]
 )
 
 #project_item(
@@ -72,8 +79,7 @@
   skills: "pratyay.org/docs/fnaf.pdf",
   [Developed a modified port of Five Nights at Freddy’s on a Spartan-7 FPGA, achieving real-time gameplay.],
   [Implemented and integrated an SPI-based keyboard interface supporting up to six simultaneous key presses.],
-  [Designed game logic, randomized seed selection and optimized scalable graphics within 270 KiloBytes of RAM.],
-  [Recognized as one of the best projects in ECE 385 and showcased for its technical complexity.]
+  [Designed game logic, randomized seed selection and optimized scalable graphics within 270 KiloBytes of RAM.]
 )
 
 #project_item(
@@ -87,8 +93,7 @@
   name: "Temperature Regulation Calibrator",
   skills: "github.com/pratyaygopal/Thermocouple-Simulator",
   [Built a proof of concept of an affordable, temperature calibrator using thermocouples and Raspberry Pi.],
-  [Ran 100+ simulations of the ADC/DAC and recorded data to ensure minimal variance in the output voltage.],
-  [Automated Linux-based data collection workflows using Bash scripting, improving efficiency across test runs.]
+  [Ran 100+ simulations of the ADC/DAC and recorded data to ensure minimal variance in the output voltage.]
 )
 
 #resume_heading("Technical Skills")
