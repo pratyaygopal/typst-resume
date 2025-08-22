@@ -99,7 +99,7 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "SystemVerilog, Verilog, Bash, Assembly, C, C++, VHDL, Python, Java"
+  skills: "SystemVerilog, Verilog, Bash, Assembly, C, C++, VHDL, TCL, Python, Java"
 )
 #skill_item(
   category: "Tools",
