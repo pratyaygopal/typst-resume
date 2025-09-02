@@ -99,7 +99,7 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "SystemVerilog, Verilog, Bash, Assembly, C, C++, VHDL, TCL, Python, Java"
+  skills: "SystemVerilog, Verilog, Bash, Assembly, C, C++, VHDL, TCL, CUDA, Python, Java"
 )
 #skill_item(
   category: "Tools",
@@ -111,5 +111,5 @@
 )
 #skill_item(
   category: "Lab Tools",
-  skills: "Falstad, Arduino, Oscilloscopes, Raspberry Pi, KICAD, ORCAD, PADS"
+  skills: "Falstad, Arduino, Oscilloscopes, Raspberry Pi, KICAD, ORCAD, PADS, GPUS"
 )
