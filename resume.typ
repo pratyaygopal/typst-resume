@@ -7,7 +7,7 @@
   website: "pratyay.org",
   email: "pratyay2@illinois.edu",
   linkedin: "linkedin.com/in/pratyaygopal",
-  site: "github.com/pratyaygopal",
+  site: "9452680041",
 )
 
 #resume_heading[Education]
