@@ -60,12 +60,20 @@
 #exp_item(
   role: "President, ACM SIGARCH@UIUC",
   date: "Aug 2024 - Present",
-  [Officer and Workshop Lead for UIUC’s premier computer architecture student organization.],
+  [Officer and Workshop Lead for UIUC’s premier computer architecture student organization. (sigarch.net)],
   [Designing workshops to introduce students to RTL design and simulation, computer architecture and ISAs.]
 )
 
 
 #resume_heading("Projects")
+
+#project_item(
+  name: "WRAITH: A Resource-Efficient Dataflow Accelerator",
+  skills: "",
+  [Working on the RTL, Verification and Layout of the CGRA mesh and preiperal in order pipeline processors.],
+  [Targeting tapeout of a preliminary architecture on TSMC’s 65nm process node in Fall 2025.]
+)
+
 #project_item(
   name: "Superscalar Out-of-Order RISC-V CPU",
   skills: "pratyay.org/docs/ooo.pdf",
@@ -83,17 +91,10 @@
 )
 
 #project_item(
-  name: "Music synthesizer",
-  skills: "pratyay.org/docs/synth.pdf",
-  [Designed and Implemented 4 modules for a fully modular music synthesizer for the ECE198 Honors lab.],
-  [Used Falstad for design and worked with electrical workbench tools for testing.]
-)
-
-#project_item(
-  name: "Temperature Regulation Calibrator",
-  skills: "github.com/pratyaygopal/Thermocouple-Simulator",
-  [Built a proof of concept of an affordable, temperature calibrator using thermocouples and Raspberry Pi.],
-  [Ran 100+ simulations of the ADC/DAC and recorded data to ensure minimal variance in the output voltage.]
+  name: "External Electrical Neuron (N.E.R.V.E)",
+  skills: "pratyay.org/docs/nerve.pdf",
+  [Developed a system that uses an STM32 microcontroller to send electrical signals to muscles via a TENS unit.],
+  [Programmed a muscular contraction in a user by spiking brain wave intensity using a portable EEG.]
 )
 
 #resume_heading("Technical Skills")
